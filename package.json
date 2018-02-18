@@ -1,0 +1,13 @@
+{
+  "name": "hugo-test-1",
+  "version": "1.0.0",
+  "description": "hugo test site",
+  "main": "index.js",
+"scripts": {
+	"server": "hugo server -w -v",
+	"build": "hugo -v",
+	"deploy": "aws s3 sync public/ s3://hugo-test-1/ --delete --profile s3access"
+},
+  "author": "",
+  "license": "ISC"
+}

@@ -65,8 +65,8 @@ jobs:
               command:
                 apk update \
                 && apk add bash \
-                groff \
-                less \
+                # groff \
+                # less \
                 py-pip
           - run:
               command:

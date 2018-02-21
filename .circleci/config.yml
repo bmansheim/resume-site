@@ -62,6 +62,10 @@ jobs:
           # dist folder that needs to be deployed
           - restore_cache:
               key: v1-dist-{{ .Environment.CIRCLE_BRANCH }}-{{ .Environment.CIRCLE_SHA1 }}
+          # Update apt-get
+          - run:
+              name: Update apt-get
+              command: apt-get -y -qq update
           # Install pip and awscli
           - run:
               name: Install pip

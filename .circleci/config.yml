@@ -49,7 +49,7 @@ jobs:
   deploy:
       working_directory: ~/project
       docker:
-        - image: jojomi/hugo:latest
+        - image: jguyomard/hugo-builder:latest
       steps:
           # Log the current branch
           - run:

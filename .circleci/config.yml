@@ -6,10 +6,14 @@ jobs:
       docker:
           - image: ubuntu:artful
       steps:
-          # Checkout the code from the branch into the working_directory
+          # Update apt-get
+          - run:
+              name: Update apt-get
+              command: apt-get -y -qq update
           - run:
               name: Install Hugo
               command: apt-get -y install hugo git
+          # Checkout the code from the branch into the working_directory
           - checkout
           # Log the current branch
           - run:

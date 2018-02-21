@@ -64,10 +64,7 @@ jobs:
               name: Install aws cli
               command:
                 apk update \
-                && apk add bash \
-                # groff \
-                # less \
-                py-pip
+                && apk add py-pip \
           - run:
               command:
                 python -m pip install -U pip \

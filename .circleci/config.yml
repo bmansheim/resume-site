@@ -1,49 +1,49 @@
 version: 2
 jobs:
-    # The build job
-    build:
-        working_directory: ~/project
-        docker:
-            - image: jojomi/hugo:latest
-        steps:
-            # Checkout the code from the branch into the working_directory
-            - checkout
-            # Log the current branch
-            - run:
-                name: Show current branch
-                command: echo ${CIRCLE_BRANCH}
-            # # Restore local dependencies from cache
-            # - restore_cache:
-            #     keys:
-            #     - v1-dependencies-{{ checksum "package.json" }}
-            #     - v1-dependencies-
-            # # Install project dependencies
-            # - run:
-            #     name: Install local dependencies
-            #     command: npm install
-            # # Cache local dependencies if they don't exist
-            # - save_cache:
-            #     key: v1-dependencies-{{ checksum "package.json" }}
-            #     paths:
-            #         - node_modules
-            # # Lint the source code
-            # - run:
-            #     name: Linting
-            #     command: npm run lint
-            # # Test the source code
-            # - run:
-            #     name: Testing
-            #     command: npm run test
-            # # Build project with different configuration based on
-            # the current branch
-            - run:
-                name: Building
-                command: hugo -v
-            # Cache the dist folder for the deploy job
-            - save_cache:
-                key: v1-dist-{{ .Environment.CIRCLE_BRANCH }}-{{ .Environment.CIRCLE_SHA1 }}
-                paths:
-                    - dist
+  # The build job
+  build:
+      working_directory: ~/project
+      docker:
+          - image: jojomi/hugo:latest
+      steps:
+          # Checkout the code from the branch into the working_directory
+          - checkout
+          # Log the current branch
+          - run:
+              name: Show current branch
+              command: echo ${CIRCLE_BRANCH}
+          # # Restore local dependencies from cache
+          # - restore_cache:
+          #     keys:
+          #     - v1-dependencies-{{ checksum "package.json" }}
+          #     - v1-dependencies-
+          # # Install project dependencies
+          # - run:
+          #     name: Install local dependencies
+          #     command: npm install
+          # # Cache local dependencies if they don't exist
+          # - save_cache:
+          #     key: v1-dependencies-{{ checksum "package.json" }}
+          #     paths:
+          #         - node_modules
+          # # Lint the source code
+          # - run:
+          #     name: Linting
+          #     command: npm run lint
+          # # Test the source code
+          # - run:
+          #     name: Testing
+          #     command: npm run test
+          # # Build project with different configuration based on
+          # the current branch
+          - run:
+              name: Building
+              command: hugo -v
+          # Cache the dist folder for the deploy job
+          - save_cache:
+              key: v1-dist-{{ .Environment.CIRCLE_BRANCH }}-{{ .Environment.CIRCLE_SHA1 }}
+              paths:
+                  - dist
 
 jobs:
   # The deploy job
@@ -73,3 +73,15 @@ jobs:
           - run:
               name: Deploy to S3
               command: aws s3 sync public/ s3://hugo-test-1/ --delete --profile s3access
+
+workflows:
+  version: 2
+  # The build and deploy workflow
+  build_and_deploy:
+      jobs:
+          - build
+          # The deploy job will only run on the filtered branches and
+          # require the build job to be successful before it starts
+          - deploy:
+              requires:
+                  - build

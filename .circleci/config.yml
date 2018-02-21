@@ -49,7 +49,7 @@ jobs:
   deploy:
       working_directory: ~/project
       docker:
-        - image: jguyomard/hugo-builder:latest
+        - image: jojomi/hugo:latest
       steps:
           # Log the current branch
           - run:
@@ -62,9 +62,18 @@ jobs:
           # Install AWS cli
           - run:
               name: Install aws cli
-              command: 
-                apk --update add py-pip
-                pip install awscli
+              command:
+                apk update \
+                && apk add bash \
+                groff \
+                less \
+                py-pip
+          - run:
+              command:
+                python -m pip install -U pip \
+                && pip install --upgrade awscli \
+                && python -m pip uninstall -y pip \
+                && apk del py-pip
           # Set the signature version for the S3 auth
           - run:
               name: Setting Signature Version 4 for S3 Request Authentication

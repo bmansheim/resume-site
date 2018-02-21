@@ -8,8 +8,8 @@ jobs:
       steps:
           # Checkout the code from the branch into the working_directory
           - run:
-            name: Install Hugo
-            command: apt-get -y install hugo git
+              name: Install Hugo
+              command: apt-get -y install hugo git
           - checkout
           # Log the current branch
           - run:

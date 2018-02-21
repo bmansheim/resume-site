@@ -4,9 +4,12 @@ jobs:
   build:
       working_directory: ~/project
       docker:
-          - image: jojomi/hugo:latest
+          - image: ubuntu:artful
       steps:
           # Checkout the code from the branch into the working_directory
+          - run:
+            name: Install Hugo
+            command: apt-get -y install hugo git
           - checkout
           # Log the current branch
           - run:
@@ -49,7 +52,7 @@ jobs:
   deploy:
       working_directory: ~/project
       docker:
-        - image: jojomi/hugo:latest
+        - image: ubuntu:artful
       steps:
           # Log the current branch
           - run:
@@ -59,18 +62,13 @@ jobs:
           # dist folder that needs to be deployed
           - restore_cache:
               key: v1-dist-{{ .Environment.CIRCLE_BRANCH }}-{{ .Environment.CIRCLE_SHA1 }}
-          # Install AWS cli
+          # Install pip and awscli
           - run:
-              name: Install aws cli
-              command:
-                apk update \
-                && apk add py-pip
+              name: Install pip
+              command: apt-get -y install python-pip
           - run:
-              command:
-                python -m pip install -U pip \
-                && pip install --upgrade awscli \
-                && python -m pip uninstall -y pip \
-                && apk del py-pip
+              name: Install awscli
+              command: pip install awscli
           # Set the signature version for the S3 auth
           - run:
               name: Setting Signature Version 4 for S3 Request Authentication

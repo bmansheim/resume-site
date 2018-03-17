@@ -4,7 +4,7 @@ jobs:
   build:
       working_directory: ~/project
       docker:
-          - image: ubuntu:artful
+          - image: gambtho/awscli_node:latest
       steps:
           # Update apt-get
           - run:
@@ -27,13 +27,6 @@ jobs:
           #     key: v1-dist-{{ .Environment.CIRCLE_BRANCH }}-{{ .Environment.CIRCLE_SHA1 }}
           #     paths:
           #         - dist
-            # Install pip and awscli
-          - run:
-              name: Install pip
-              command: apt-get -y install python-pip
-          - run:
-              name: Install awscli
-              command: pip install awscli
           # Set the signature version for the S3 auth
           - run:
               name: Setting Signature Version 4 for S3 Request Authentication

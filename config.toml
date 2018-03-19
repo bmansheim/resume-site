@@ -1,8 +1,8 @@
 # Page settings
 
-baseurl = "https://hugo-test-1.mansheim.com/"
+baseurl = "https://cv.mansheim.com/"
 languageCode = "en-us"
-title = "John Doe Resume"
+title = "Ben Mansheim - Senior Documentation Specialist"
 theme = "hugo-orbit-theme"
 googleAnalytics = "UA-XXXXXXX-Y"
 

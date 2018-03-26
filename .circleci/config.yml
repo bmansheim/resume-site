@@ -38,7 +38,7 @@ jobs:
           # Deploy to the S3 bucket corresponding to the current branch
           - run:
               name: Deploy to S3
-              command: aws s3 sync public s3://hugo-test-1/
+              command: aws s3 sync public s3://hugo-test-1/cv
         
 
   # The deploy job

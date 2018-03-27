@@ -1,143 +1,311 @@
 baseurl = "https://cv.mansheim.com/"
+
 disable404 = true
+
 disableRSS = true
+
 disableSitemap = true
+
 googleAnalytics = "UA-XXXXXXX-Y"
+
 languageCode = "en-us"
+
 theme = "hugo-orbit-theme"
+
 title = "Ben Mansheim - Senior Documentation Specialist"
+
 [params]
+
 author = "Pavel Kanyshev"
+
 description = "Ben - Doc'er for software"
+
 styles = "styles.css"
+
 [params.contact]
+
 enable = true
+
 [[params.contact.list]]
+
 class = "email"
+
 icon = "fa-envelope"
+
 title = "cv@mansheim.com"
+
 url = "mailto: cv@mansheim.com"
+
 [[params.contact.list]]
+
 class = "phone"
+
 icon = "fa-phone"
-title = "+972 (0)52 691 6188"
+
+title = "+972 (0)52 6916188"
+
 [[params.contact.list]]
+
 class = "website"
+
 icon = "fa-globe"
+
 title = "cv.mansheim.com"
+
 url = "//cv.mansheim.com"
+
 [[params.contact.list]]
+
 class = "linkedin"
+
 icon = "fa-linkedin"
+
 title = "linkedin.com/in/bmansheim"
+
 url = "//linkedin.com/in/bmansheim"
+
 [[params.contact.list]]
+
 class = "github"
+
 icon = "fa-github"
+
 title = "github.com/bmansheim"
+
 url = "//github.com/bmansheim"
+
 [params.education]
+
 enable = true
+
 title = "Education"
+
 [[params.education.list]]
+
 college = "University of Wisconsin-Madison"
+
 dates = "1992-1995"
+
 degree = "BA with focus on Applied Math, Engineering and Physics"
+
 [params.experiences]
+
 enable = true
+
 icon = "fa-briefcase"
+
 title = "Experiences"
+
 [params.footer]
+
 copyright = ""
+
 [params.interests]
+
 enable = true
+
 title = "Interests"
+
 [[params.interests.list]]
+
 interest = "Guitar"
+
 [[params.interests.list]]
+
 interest = "Boxing"
+
 [[params.interests.list]]
+
 interest = "Classic texts"
+
 [[params.jobs.list]]
-company = "Startup Hubs, San Francisco"
-dates = "2015 - Present"
-details = "**Describe your role here** lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu, pretium quis, sem. Nulla consequat massa quis enim. Donec pede justo.\n\n Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo."
-position = "Lead Developer"
+
+company = "Cloudify Platform Ltd - Herzliya, Israel"
+
+dates = "2017 - Present"
+
+details = "
+
+- First full-time writer at cloud computing startup in Linux environment
+
+- Evaluated current state of documentation and planned new strategy
+
+- Relaunched Docs-as-Code documentation process and revamped site
+
+- Tools: GitHub, Markdown, Hugo, CSS, AWS S3, Rackspace"
+
+position = "Senior Technical Writer and Documentation Manager"
+
 [[params.jobs.list]]
-company = "Google, London"
-dates = "2014 - 2015"
-details = "**Describe your role here** lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu, pretium quis, sem."
-position = "Senior Software Engineer"
+
+company = "JBS Technical Writing - Netanya, Israel"
+
+dates = "2017 – 2017"
+
+details = "
+
+- Consultant at a data science startup as first writer
+
+- Evaluated current state of documentation and planned new strategy
+
+- Interviewed engineers to rewrite significant sections of the KnowledgeBase
+
+- Tools: Google Docs, FreshDesk
+
+"
+
 [[params.jobs.list]]
-company = "Amazon, London"
-dates = "2012 - 2014"
-details = "**Describe your role here** lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu, pretium quis, sem."
-position = "UI Developer"
+
+company = "Tufin Technologies Ltd. - Ramat Gan, Israel"
+
+dates = "2011 - 2017"
+
+details = "
+
+- Primary writer for 150 member R&D organization working in Agile methodology
+
+- Maintain terminology, user-interface texts, and user documentation for 3 products
+
+- Publish documentation to PDF, in-product help and online knowledgebase
+
+- Improve documentation processes, including implement KnowledgeBase enhancements, manage contract writers, and new initiatives
+
+- Tools: Author-it, Google Docs, Microsoft Word, CSS
+
+"
+
 [params.language]
+
 enable = true
+
 title = "Languages"
+
 [[params.language.list]]
+
 language = "English"
+
 level = "Native"
+
 [[params.language.list]]
+
 language = "Hebrew"
+
 level = "Professional"
+
 [[params.language.list]]
+
 language = "German"
+
 level = "Introductory"
+
 [params.profile]
+
 avatar = "face_shot.png"
+
 name = "Ben Mansheim"
+
 tagline = "Documentation Specialist"
+
 [params.projects]
-enable = true
+
+enable = false
+
 icon = "fa-archive"
+
 intro = "**You can list your side projects or open source libraries in this section.** Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum et ligula in nunc bibendum fringilla a eu lectus"
+
 title = "Projects"
+
 [[params.projects.list]]
+
 tagline = "Grid theme for Hugo. It's a kind of boilerplate to perform anyone or anything quickly. Portfolio, collection, bookmarks, contacts and so on"
+
 title = "Hugrid"
+
 url = "https://github.com/aerohub/hugrid"
+
 [[params.projects.list]]
+
 tagline = "Simple FAQ Theme for Hugo. You may use this theme for building very simple FAQs or note lists."
+
 title = "Simple FAQ Theme for Hugo"
+
 url = "https://github.com/aerohub/hugo-faq-theme"
+
 [[params.projects.list]]
+
 tagline = "Little profile/card-style template for Hugo."
+
 title = "Hugo Identity"
+
 url = "https://github.com/aerohub/hugo-identity-theme"
+
 [[params.projects.list]]
+
 tagline = "Hugo Resume/CV Theme for Developers."
+
 title = "Orbit"
+
 url = "https://github.com/aerohub/hugo-orbit-theme"
+
 [[params.projects.list]]
+
 tagline = "A simple responsive Hugo theme for personal site."
+
 title = "Me"
+
 url = "https://github.com/aerohub/hugo-me-theme"
+
 [params.skills]
+
 enable = true
+
 icon = "fa-rocket"
-title = "Skills & Proficiency"
+
+title = "Areas of expertise over 18 years of leadership"
+
 [[params.skills.list]]
+
 level = "100%"
+
 skill = "Computer Networking"
+
 [[params.skills.list]]
+
 level = "83%"
+
 skill = "Project Management"
+
 [[params.skills.list]]
+
 level = "66%"
+
 skill = "Software Documentation"
+
 [[params.skills.list]]
+
 level = "61%"
+
 skill = "Simplified Technical English"
+
 [[params.skills.list]]
+
 level = "45%"
+
 skill = "Documentation Management"
+
 [[params.skills.list]]
+
 level = "3%"
+
 skill = "Docs-like-Code"
+
 [params.summary]
+
 enable = true
+
 icon = "fa-user"
-summary = "**Summarise your career here** lorem ipsum dolor sit amet, consectetuer adipiscing elit. Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu."
+
+summary = "My experience in documentation grows out of a successful start in network administration and project management. The skills from these areas led me to manage all aspects of documentation for fast-growing hi-tech companies, including moving from waterfall to agile development management. As a writer and then a team lead I implemented documentation project lifecycle and the Simplified English standard to reduce the documentation project cycle by 50% and increase writer efficiency by 30%. After following the standard trends of documentation up the levels of responsibility, I now jumped into a startup that depends on Git and a static site generator to build their documentation, where I learned the process quickly and made immediate improvements for higher customer satisfaction."
+
 title = "Career Profile"

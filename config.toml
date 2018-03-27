@@ -124,15 +124,7 @@ company = "Cloudify Platform Ltd - Herzliya, Israel"
 
 dates = "2017 - Present"
 
-details = "
-
-- First full-time writer at cloud computing startup in Linux environment
-
-- Evaluated current state of documentation and planned new strategy
-
-- Relaunched Docs-as-Code documentation process and revamped site
-
-- Tools: GitHub, Markdown, Hugo, CSS, AWS S3, Rackspace"
+details = "I am the first full-time writer at a cloud computing startup with a Linux environment. Here I evaluated current state of documentation and planned new strategy. As a result I relaunched the Docs-as-Code documentation process and revamped documentation site. Tools: GitHub, Markdown, Hugo, CSS, AWS S3, Rackspace"
 
 position = "Senior Technical Writer and Documentation Manager"
 
@@ -142,17 +134,7 @@ company = "JBS Technical Writing - Netanya, Israel"
 
 dates = "2017 – 2017"
 
-details = "
-
-- Consultant at a data science startup as first writer
-
-- Evaluated current state of documentation and planned new strategy
-
-- Interviewed engineers to rewrite significant sections of the KnowledgeBase
-
-- Tools: Google Docs, FreshDesk
-
-"
+details = "As a JBS consultant, I was the first writer at a data science startup. I evaluated the current state of documentation and planned new strategy. In addition, I interviewed engineers to rewrite significant sections of the KnowledgeBase. Tools: Google Docs, FreshDesk"
 
 [[params.jobs.list]]
 
@@ -160,19 +142,7 @@ company = "Tufin Technologies Ltd. - Ramat Gan, Israel"
 
 dates = "2011 - 2017"
 
-details = "
-
-- Primary writer for 150 member R&D organization working in Agile methodology
-
-- Maintain terminology, user-interface texts, and user documentation for 3 products
-
-- Publish documentation to PDF, in-product help and online knowledgebase
-
-- Improve documentation processes, including implement KnowledgeBase enhancements, manage contract writers, and new initiatives
-
-- Tools: Author-it, Google Docs, Microsoft Word, CSS
-
-"
+details = "During my tenure at Tufin, I was the primary writer in the 150 member R&D organization working in Agile methodology. My tasks included terminology, user-interface texts, and user documentation for 3 products. I publish documentation to PDF, in-product help and online knowledgebase. During that time, I improve documentation processes, including implementing KnowledgeBase enhancements, managing contract writers, and starting new initiatives to deliver more value to customers.Tools: Author-it, Google Docs, Microsoft Word, CSS"
 
 [params.language]
 

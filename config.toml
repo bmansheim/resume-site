@@ -120,11 +120,21 @@ interest = "Classic texts"
 
 [[params.jobs.list]]
 
+company = "Redis Labs - Tel Aviv, Israel"
+
+dates = "2018 - Present"
+
+details = "I am responsible for all aspects of the documentation. My main goal is to integrate documentation into the release process. I was hired to migrate the documentation set from WordPress to Docs-as-Code and revamp the documentation site. Tools: GitHub, Markdown, Hugo, CSS, AWS S3"
+
+position = "Sr Technical Writer and Documentation Manager"
+
+[[params.jobs.list]]
+
 company = "Cloudify Platform Ltd - Herzliya, Israel"
 
-dates = "2017 - Present"
+dates = "2017 - 2018"
 
-details = "I am the first full-time writer at a cloud computing startup with a Linux environment. Here I evaluated current state of documentation and planned new strategy. As a result I relaunched the Docs-as-Code documentation process and revamped documentation site. Tools: GitHub, Markdown, Hugo, CSS, AWS S3, Rackspace"
+details = "As the first full-time writer at a cloud computing startup with a Linux environment, I evaluated current state of documentation and planned new strategy. As a result I relaunched the Docs-as-Code documentation process and revamped documentation site. Tools: GitHub, Markdown, Hugo, CSS, AWS S3, Rackspace"
 
 position = "Sr Technical Writer and Documentation Manager"
 
@@ -270,7 +280,7 @@ skill = "Documentation Management"
 
 [[params.skills.list]]
 
-level = "3%"
+level = "50%"
 
 skill = "Docs-like-Code"
 

@@ -136,7 +136,7 @@ dates = "2018 - Present"
 
 details = "I am responsible for all aspects of the documentation. I was hired to migrate the documentation set from WordPress to Docs-as-Code and revamp the documentation site. My current focus is to integrate documentation into the release process."
 
-tools = "VSCode, GitHub, Markdown, Hugo, CSS, AWS S3"
+tools = "VSCode, GitHub, Markdown, Hugo, CSS, AWS S3, AWS CloudFront"
 
 position = "Sr Technical Writer and Documentation Manager"
 
@@ -146,9 +146,9 @@ company = "Cloudify Platform Ltd - Herzliya, Israel"
 
 dates = "2017 - 2018"
 
-details = "As the first full-time writer at a cloud computing startup with a Linux environment, I evaluated current state of documentation and planned new strategy. As a result I relaunched the Docs-as-Code documentation process and revamped documentation site."
+details = "As the first full-time writer at a cloud computing startup with a Linux environment, I evaluated the current state of documentation and planned new strategy. As a result I relaunched the Docs-as-Code documentation process and revamped documentation site."
 
-tools = "VSCode, GitHub, Markdown, Hugo, CSS, AWS S3, Rackspace"
+tools = "VSCode, GitHub, Markdown, Hugo, Docker, CSS, AWS S3, Rackspace"
 
 position = "Sr Technical Writer and Documentation Manager"
 

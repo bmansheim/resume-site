@@ -156,7 +156,7 @@ p {
   background: #fff;
   padding: 60px;
   padding-right: 300px;
-  page-break-before: always;
+  /* page-break-before: always; */
 }
 .main-wrapper .section-title {
   text-transform: uppercase;
@@ -190,7 +190,7 @@ p {
 }
 .main-wrapper .section {
   margin-bottom: 60px;
-  page-break-inside: avoid;
+  /* page-break-inside: avoid; */
 }
 .main-wrapper .experiences-section .item {
   margin-bottom: 30px;
@@ -230,8 +230,8 @@ p {
   margin-bottom: 15px;
 }
 .skillset .item {
-  margin-bottom: 15px;
-  overflow: hidden;
+    margin-bottom: 15px;
+    overflow: hidden;
 }
 .skillset .level-title {
   font-size: 14px;
@@ -280,6 +280,20 @@ p {
     margin-bottom: 0;
   }
 }
+/* CSS for print */
+@media print {
+  .img-circle, .skills-section, .language-container, .interests-container, .footer {
+    display: none;
+  }
+  .wrapper { 
+    width: 780px;
+    display:table; 
+  } 
+  .wrapper .sidebar-wrapper { 
+    display:table-row; 
+  } 
+}
+
 /* Small devices (tablets, 768px and up) */
 /* Medium devices (desktops, 992px and up) */
 @media (min-width: 992px) {

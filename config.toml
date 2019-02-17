@@ -124,7 +124,9 @@ company = "Redis Labs - Tel Aviv, Israel"
 
 dates = "2018 - Present"
 
-details = "I am responsible for all aspects of the documentation. My main goal is to integrate documentation into the release process. I was hired to migrate the documentation set from WordPress to Docs-as-Code and revamp the documentation site. Tools: GitHub, Markdown, Hugo, CSS, AWS S3"
+details = "I am responsible for all aspects of the documentation. My main goal is to integrate documentation into the release process. I was hired to migrate the documentation set from WordPress to Docs-as-Code and revamp the documentation site."
+
+tools = "GitHub, Markdown, Hugo, CSS, AWS S3"
 
 position = "Sr Technical Writer and Documentation Manager"
 
@@ -134,7 +136,9 @@ company = "Cloudify Platform Ltd - Herzliya, Israel"
 
 dates = "2017 - 2018"
 
-details = "As the first full-time writer at a cloud computing startup with a Linux environment, I evaluated current state of documentation and planned new strategy. As a result I relaunched the Docs-as-Code documentation process and revamped documentation site. Tools: GitHub, Markdown, Hugo, CSS, AWS S3, Rackspace"
+details = "As the first full-time writer at a cloud computing startup with a Linux environment, I evaluated current state of documentation and planned new strategy. As a result I relaunched the Docs-as-Code documentation process and revamped documentation site."
+
+tools = "GitHub, Markdown, Hugo, CSS, AWS S3, Rackspace"
 
 position = "Sr Technical Writer and Documentation Manager"
 
@@ -144,7 +148,9 @@ company = "JBS Technical Writing - Netanya, Israel"
 
 dates = "2017 – 2017"
 
-details = "As a JBS consultant, I was the first writer at a data science startup. I evaluated the current state of documentation and planned new strategy. In addition, I interviewed engineers to rewrite significant sections of the KnowledgeBase. Tools: Google Docs, FreshDesk"
+details = "As a JBS consultant, I was the first writer at a data science startup. I evaluated the current state of documentation and planned new strategy. In addition, I interviewed engineers to rewrite significant sections of the KnowledgeBase."
+
+tools = "Google Docs, FreshDesk"
 
 position = "Sr Technical Writer and Documentation Manager"
 
@@ -154,7 +160,9 @@ company = "Tufin Technologies Ltd. - Ramat Gan, Israel"
 
 dates = "2011 - 2017"
 
-details = "During my tenure at Tufin, I was the primary writer in the 150 member R&D organization working in Agile methodology. My tasks included terminology, user-interface texts, and user documentation for 3 products. I publish documentation to PDF, in-product help and online knowledgebase. During that time, I improve documentation processes, including implementing KnowledgeBase enhancements, managing contract writers, and starting new initiatives to deliver more value to customers.Tools: Author-it, Google Docs, Microsoft Word, CSS"
+details = "During my tenure at Tufin, I was the primary writer in the 150 member R&D organization working in Agile methodology. My tasks included terminology, user-interface texts, and user documentation for 3 products. I publish documentation to PDF, in-product help and online knowledgebase. During that time, I improve documentation processes, including implementing KnowledgeBase enhancements, managing contract writers, and starting new initiatives to deliver more value to customers."
+
+tools = "Author-it, Google Docs, Microsoft Word, CSS"
 
 position = "Sr Technical Writer and Documentation Manager"
 

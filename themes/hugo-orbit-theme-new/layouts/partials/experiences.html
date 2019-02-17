@@ -13,6 +13,9 @@
                     <div class="details">
                         <p>{{ with .details }}{{ . | markdownify }}{{ end }}</p>
                     </div><!--//details-->
+                    <div class="tools">
+                        <p>Tools: {{ with .tools }}{{ . | markdownify }}{{ end }}</p>
+                    </div><!--//details-->
                 </div><!--//item-->
 				{{ end }}
 

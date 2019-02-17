@@ -274,13 +274,13 @@ skill = "Simplified Technical English"
 
 [[params.skills.list]]
 
-level = "45%"
+level = "60%"
 
 skill = "Documentation Management"
 
 [[params.skills.list]]
 
-level = "50%"
+level = "40%"
 
 skill = "Docs-like-Code"
 

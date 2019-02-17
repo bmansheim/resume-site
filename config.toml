@@ -290,6 +290,8 @@ enable = true
 
 icon = "fa-user"
 
-summary = "My experience in documentation grows out of a successful start in network administration and project management. The skills from these areas led me to manage all aspects of documentation for fast-growing hi-tech companies, including moving from waterfall to agile development management. As a writer and then a team lead I implemented documentation project lifecycle and the Simplified English standard to reduce the documentation project cycle by 50% and increase writer efficiency by 30%. After following the standard trends of documentation up the levels of responsibility, I now jumped into a startup that depends on Git and a static site generator to build their documentation, where I learned the process quickly and made immediate improvements for higher customer satisfaction."
+summary = "My experience in documentation grows out of a successful start in network administration and project management. The skills from these areas led me to manage all aspects of documentation for fast-growing hi-tech companies, including moving from waterfall to agile development management."
+
+summary2 = "As a writer and then a team lead I implemented documentation project lifecycle and the Simplified English standard to reduce the documentation project cycle by 50% and increase writer efficiency by 30%. After following the standard trends of documentation up the levels of responsibility, I now jumped into a startup that depends on Git and a static site generator to build their documentation, where I learned the process quickly and made immediate improvements for higher customer satisfaction."
 
 title = "Career Profile"

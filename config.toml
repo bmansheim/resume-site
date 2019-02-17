@@ -124,8 +124,7 @@ company = "Redis Labs - Tel Aviv, Israel"
 
 dates = "2018 - Present"
 
-details = "I am responsible for all aspects of the documentation. My main goal is to integrate documentation into the release process. I was hired to migrate the documentation set from WordPress to Docs-as-Code and revamp the documentation site.
-Tools: GitHub, Markdown, Hugo, CSS, AWS S3"
+details = "I am responsible for all aspects of the documentation. My main goal is to integrate documentation into the release process. I was hired to migrate the documentation set from WordPress to Docs-as-Code and revamp the documentation site. Tools: GitHub, Markdown, Hugo, CSS, AWS S3"
 
 position = "Sr Technical Writer and Documentation Manager"
 

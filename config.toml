@@ -34,7 +34,7 @@ icon = "fa-envelope"
 
 title = "cv@mansheim.com"
 
-url = "mailto: cv@mansheim.com"
+url = "mailto:cv@mansheim.com"
 
 [[params.contact.list]]
 
@@ -60,7 +60,7 @@ class = "linkedin"
 
 icon = "fa-linkedin"
 
-title = "linkedin.com/in/bmansheim"
+title = "bmansheim"
 
 url = "//linkedin.com/in/bmansheim"
 
@@ -70,7 +70,7 @@ class = "github"
 
 icon = "fa-github"
 
-title = "github.com/bmansheim"
+title = "bmansheim"
 
 url = "//github.com/bmansheim"
 

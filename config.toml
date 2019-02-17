@@ -44,6 +44,8 @@ icon = "fa-phone"
 
 title = "+972 (0)52 6916188"
 
+url = "mobile"
+
 [[params.contact.list]]
 
 class = "website"
@@ -52,7 +54,7 @@ icon = "fa-globe"
 
 title = "cv.mansheim.com"
 
-url = "//cv.mansheim.com"
+url = "https://cv.mansheim.com"
 
 [[params.contact.list]]
 
@@ -62,7 +64,7 @@ icon = "fa-linkedin"
 
 title = "bmansheim"
 
-url = "//linkedin.com/in/bmansheim"
+url = "https://linkedin.com/in/bmansheim"
 
 [[params.contact.list]]
 
@@ -72,7 +74,7 @@ icon = "fa-github"
 
 title = "bmansheim"
 
-url = "//github.com/bmansheim"
+url = "https://github.com/bmansheim"
 
 [params.education]
 

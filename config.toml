@@ -10,7 +10,7 @@ googleAnalytics = "UA-XXXXXXX-Y"
 
 languageCode = "en-us"
 
-theme = "hugo-orbit-theme"
+theme = "hugo-orbit-theme-new"
 
 title = "Ben Mansheim - Senior Documentation Specialist"
 
@@ -188,7 +188,7 @@ avatar = "face_shot.png"
 
 name = "Ben Mansheim"
 
-tagline = "Documentation Manager and Senior Technical Writer"
+tagline = "Documentation Manager Senior Technical Writer"
 
 [params.projects]
 

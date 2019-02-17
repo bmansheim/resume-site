@@ -1,0 +1,15 @@
+#git files
+/.github
+
+#Hugo output
+/public/*
+!/public/.gitkeep
+
+# VSCode configuration
+.vscode/
+
+# Windows files
+Thumbs.db
+
+# MacOS files
+.DS_Store

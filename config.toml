@@ -230,7 +230,7 @@ title = "Publications"
 
 [[params.projects.list]]
 
-# tagline = "Grid theme for Hugo. It's a kind of boilerplate to perform anyone or anything quickly. Portfolio, collection, bookmarks, contacts and so on"
+# tagline = " - Grid theme for Hugo. It's a kind of boilerplate to perform anyone or anything quickly. Portfolio, collection, bookmarks, contacts and so on"
 
 title = "Motivations behind managing documentation like code"
 
@@ -238,7 +238,7 @@ url = "https://www.docslikecode.com/articles/moving-agile-open-source-docs/"
 
 [[params.projects.list]]
 
-# tagline = "Simple FAQ Theme for Hugo. You may use this theme for building very simple FAQs or note lists."
+# tagline = " - Simple FAQ Theme for Hugo. You may use this theme for building very simple FAQs or note lists."
 
 title = "The process of learning to do docs like code"
 

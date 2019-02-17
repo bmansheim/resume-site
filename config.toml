@@ -88,6 +88,14 @@ dates = "1992-1995"
 
 degree = "BA with focus on Applied Math, Engineering and Physics"
 
+[[params.education.list]]
+
+college = "Shakoof School for Interpersonal Communication and Counseling"
+
+dates = "2013-2019"
+
+degree = "Self-improvement through active listening and support"
+
 [params.experiences]
 
 enable = true
@@ -126,7 +134,7 @@ dates = "2018 - Present"
 
 details = "I am responsible for all aspects of the documentation. My main goal is to integrate documentation into the release process. I was hired to migrate the documentation set from WordPress to Docs-as-Code and revamp the documentation site."
 
-tools = "GitHub, Markdown, Hugo, CSS, AWS S3"
+tools = "VSCode, GitHub, Markdown, Hugo, CSS, AWS S3"
 
 position = "Sr Technical Writer and Documentation Manager"
 
@@ -138,7 +146,7 @@ dates = "2017 - 2018"
 
 details = "As the first full-time writer at a cloud computing startup with a Linux environment, I evaluated current state of documentation and planned new strategy. As a result I relaunched the Docs-as-Code documentation process and revamped documentation site."
 
-tools = "GitHub, Markdown, Hugo, CSS, AWS S3, Rackspace"
+tools = "VSCode, GitHub, Markdown, Hugo, CSS, AWS S3, Rackspace"
 
 position = "Sr Technical Writer and Documentation Manager"
 
@@ -148,7 +156,7 @@ company = "JBS Technical Writing - Netanya, Israel"
 
 dates = "2017 – 2017"
 
-details = "As a JBS consultant, I was the first writer at a data science startup. I evaluated the current state of documentation and planned new strategy. In addition, I interviewed engineers to rewrite significant sections of the KnowledgeBase."
+details = "As a JBS consultant, I was the first writer at a data science startup. I evaluated the current state of documentation and planned new strategy. In addition, I interviewed engineers to rewrite significant sections of the knowledgebase."
 
 tools = "Google Docs, FreshDesk"
 
@@ -160,11 +168,23 @@ company = "Tufin Technologies Ltd. - Ramat Gan, Israel"
 
 dates = "2011 - 2017"
 
-details = "During my tenure at Tufin, I was the primary writer in the 150 member R&D organization working in Agile methodology. My tasks included terminology, user-interface texts, and user documentation for 3 products. I publish documentation to PDF, in-product help and online knowledgebase. During that time, I improve documentation processes, including implementing KnowledgeBase enhancements, managing contract writers, and starting new initiatives to deliver more value to customers."
+details = "During my tenure at Tufin, I was the primary writer in the 150 member R&D organization working in Agile methodology. My tasks included terminology, user-interface texts, and user documentation for 3 products. I published documentation to PDF, in-product help and online knowledgebase. During that time, I improved documentation processes, including implementing knowledgebase enhancements, managing contract writers, and starting new initiatives to deliver more value to customers."
 
 tools = "Author-it, Google Docs, Microsoft Word, CSS"
 
 position = "Sr Technical Writer and Documentation Manager"
+
+[[params.jobs.list]]
+
+company = "Check Point Software Technologies - Tel Aviv, Israel"
+
+dates = "2008 - 2011"
+
+details = "Managed 5 writers during major software releases with 20+ deliverables Designed and implemented documentation project management workflow in wiki-format. Directed training for Simplified English standard Migrated documentation team procedures and guidelines to Atlassian Confluence, with dedicated pages that show up-to-the-day status of projects. Optimized administration guides and online help to improve ease-of-use by simplifying document structure and language. Served as documentation release coordinator on multiple major releases including coordination of efforts between R&D, QA, Product Management."
+
+tools = "FrameMaker, RoboHelp, Author-It, Confluence"
+
+position = "Sr Technical Writer and Team Lead"
 
 [params.language]
 
@@ -200,53 +220,29 @@ tagline = "Documentation Manager Senior Technical Writer"
 
 [params.projects]
 
-enable = false
+enable = true
 
 icon = "fa-archive"
 
-intro = "**You can list your side projects or open source libraries in this section.** Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum et ligula in nunc bibendum fringilla a eu lectus"
+# intro = "Articles published about documentation processes"
 
-title = "Projects"
-
-[[params.projects.list]]
-
-tagline = "Grid theme for Hugo. It's a kind of boilerplate to perform anyone or anything quickly. Portfolio, collection, bookmarks, contacts and so on"
-
-title = "Hugrid"
-
-url = "https://github.com/aerohub/hugrid"
+title = "Publications"
 
 [[params.projects.list]]
 
-tagline = "Simple FAQ Theme for Hugo. You may use this theme for building very simple FAQs or note lists."
+# tagline = "Grid theme for Hugo. It's a kind of boilerplate to perform anyone or anything quickly. Portfolio, collection, bookmarks, contacts and so on"
 
-title = "Simple FAQ Theme for Hugo"
+title = "Motivations behind managing documentation like code"
 
-url = "https://github.com/aerohub/hugo-faq-theme"
-
-[[params.projects.list]]
-
-tagline = "Little profile/card-style template for Hugo."
-
-title = "Hugo Identity"
-
-url = "https://github.com/aerohub/hugo-identity-theme"
+url = "https://www.docslikecode.com/articles/moving-agile-open-source-docs/"
 
 [[params.projects.list]]
 
-tagline = "Hugo Resume/CV Theme for Developers."
+# tagline = "Simple FAQ Theme for Hugo. You may use this theme for building very simple FAQs or note lists."
 
-title = "Orbit"
+title = "The process of learning to do docs like code"
 
-url = "https://github.com/aerohub/hugo-orbit-theme"
-
-[[params.projects.list]]
-
-tagline = "A simple responsive Hugo theme for personal site."
-
-title = "Me"
-
-url = "https://github.com/aerohub/hugo-me-theme"
+url = "https://www.docslikecode.com/articles/cloudify-dont-stop-dreaming/"
 
 [params.skills]
 
@@ -298,8 +294,8 @@ enable = true
 
 icon = "fa-user"
 
-summary = "My experience in documentation grows out of a successful start in network administration and project management. The skills from these areas led me to manage all aspects of documentation for fast-growing hi-tech companies, including moving from waterfall to agile development management."
+summary = "My experience in documentation grows out of a successful start in network administration and project management. The skills from these areas led me to manage all aspects of documentation for fast-growing hi-tech companies, including moving from waterfall to agile project management and from traditional to Docs-As-Code collaborative publishing."
 
-summary2 = "As a writer and then a team lead I implemented documentation project lifecycle and the Simplified English standard to reduce the documentation project cycle by 50% and increase writer efficiency by 30%. After following the standard trends of documentation up the levels of responsibility, I now jumped into a startup that depends on Git and a static site generator to build their documentation, where I learned the process quickly and made immediate improvements for higher customer satisfaction."
+summary2 = "As a writer and then a team lead I implemented a documentation project lifecycle and the Simplified English standard to reduce the documentation project cycle by 50% and increase writer efficiency by 30%. After following the standard trends of documentation up the levels of responsibility, I jumped into startups that depend on Git and tight integration with R&D to build their documentation. I learned the process quickly and made immediate improvements for higher customer satisfaction."
 
 title = "Career Profile"
